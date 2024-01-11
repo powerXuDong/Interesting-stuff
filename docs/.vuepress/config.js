@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'TypeScript4 文档',
+  title: '东东的驿站',
   base: '/Interesting-stuff/',
-  description: 'TypeScript4 最新官方文档翻译',
+  description: '东东发现的有趣的东西',
   theme: 'reco',
   locales: {
     '/': {
@@ -15,19 +15,19 @@ module.exports = {
         text: '首页',
         link: '/'
       },
-      { 
-        text: '旭东的 JavaScript 博客', 
-        items: [
-          {
-            text: 'Github',
-            link: 'https://github.com/mqyqingfeng'
-          },
-          {
-            text: '掘金',
-            link: 'https://juejin.cn/user/712139234359182/posts'
-          }
-        ]
-      }
+      // { 
+      //   text: '旭东的 JavaScript 博客', 
+      //   items: [
+      //     {
+      //       text: 'Github',
+      //       link: 'https://github.com/mqyqingfeng'
+      //     },
+      //     {
+      //       text: '掘金',
+      //       link: 'https://juejin.cn/user/712139234359182/posts'
+      //     }
+      //   ]
+      // }
     ],
     sidebar: [
       {
