@@ -1,6 +1,6 @@
 module.exports = {
   title: '东东的驿站',
-  base: '/Interesting-stuff/',
+  base: '/tech/',
   description: '东东发现的有趣的东西',
   theme: 'reco',
   locales: {
