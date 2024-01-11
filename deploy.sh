@@ -19,7 +19,7 @@ export GIT_SSH_COMMAND="ssh -i $SSH_KEY -o IdentitiesOnly=yes"
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:powerXuDong/Interesting-stuff.git master:gh-pages
-git push -f git@121.43.50.59:/home/www/website/demo.git master
+git push -f git@121.43.50.59:/home/www/website/blog.git master
 
 cd -
 
