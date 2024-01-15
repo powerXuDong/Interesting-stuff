@@ -60,6 +60,6 @@ ReuqestAbort.getInstance().getAbort().abort();
 ReuqestAbort.getInstance().clearAbort();
 ```
 
-**3.我要在线上用**
+MDN 文档
 
 [《AbortController对象》](https://developer.mozilla.org/zh-CN/docs/Web/API/AbortController)
