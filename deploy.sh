@@ -14,8 +14,12 @@ git add -A
 git commit -m 'deploy'
 
 # 设置 Git 使用自定义的 SSH 密钥
-SSH_KEY="~/.ssh/id_rsa_dong"
-export GIT_SSH_COMMAND="ssh -i $SSH_KEY -o IdentitiesOnly=yes"
+# SSH_KEY="~/.ssh/id_rsa_dong"
+
+# 使用密钥文件运行命令（github Action）
+some_command --key-file my_keyfile
+
+export GIT_SSH_COMMAND="ssh -i my_keyfile -o IdentitiesOnly=yes"
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:powerXuDong/Interesting-stuff.git master:gh-pages
