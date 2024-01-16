@@ -35,6 +35,10 @@ export default defineUserConfig({
             link: "/library/workGrowUp/wordCloud"
           },
           {
+            text: "scp 的使用",
+            link: "/library/workGrowUp/scp"
+          },
+          {
             text: "ssh Key的管理",
             link: "/library/workGrowUp/sshKey"
           },
