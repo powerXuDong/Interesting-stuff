@@ -27,21 +27,39 @@ export default defineUserConfig({
             link: "/library/workGrowUp/performanceMonitor"
           },
           {
+            text: "竞态请求",
+            link: "/library/workGrowUp/abort"
+          },
+          {
             text: "动效词云图",
             link: "/library/workGrowUp/wordCloud"
           },
           {
-            text: "竞态请求",
-            link: "/library/workGrowUp/abort"
+            text: "ssh Key的管理",
+            link: "/library/workGrowUp/sshKey"
           },
           {
             text: "crypto可逆加密",
             link: "/library/workGrowUp/crypto"
           },
           {
-            text: "ssh Key 管理",
-            link: "/library/workGrowUp/sshKey"
-          }
+            text: "RequestIdleCallback",
+            link: "/library/workGrowUp/requestIdleCallback"
+          },
+          {
+            text: "箭头函数在vue、react中的区别",
+            link: "/library/workGrowUp/arrowFunction"
+          },
+        ],
+      },
+      {
+        text: 'canvas',
+        link: '/library/canvas/clarity',
+        children: [
+          {
+            text: "清晰度的问题",
+            link: "/library/canvas/clarity"
+          },
         ],
       },
       {
