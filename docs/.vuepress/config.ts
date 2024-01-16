@@ -60,6 +60,10 @@ export default defineUserConfig({
             text: "清晰度的问题",
             link: "/library/canvas/clarity"
           },
+          {
+            text: "深入理解路径",
+            link: "/library/canvas/path"
+          },
         ],
       },
       {

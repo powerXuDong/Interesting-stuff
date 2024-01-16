@@ -12,5 +12,6 @@
   },
   "dependencies": {
     "vuepress-theme-reco": "^1.6.17"
-  }
+  },
+  "repository": "git@github.com:powerXuDong/Interesting-stuff.git"
 }
