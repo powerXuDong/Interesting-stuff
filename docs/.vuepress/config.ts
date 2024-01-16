@@ -71,6 +71,24 @@ export default defineUserConfig({
         ],
       },
       {
+        text: 'Mysql',
+        link: '/library/mysql/start',
+        children: [
+          {
+            text: "安装初始化",
+            link: "/library/mysql/start"
+          },
+          {
+            text: "删除卸载",
+            link: "/library/mysql/clear"
+          },
+          {
+            text: "FAQ",
+            link: "/library/mysql/FAQ"
+          },
+        ],
+      },
+      {
         text: 'openAi',
         link: '/library/openAi/proxy',
         children: [
