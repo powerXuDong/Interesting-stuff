@@ -99,6 +99,10 @@ export default defineUserConfig({
             link: "/library/mysql/lambda"
           },
           {
+            text: "分组查询",
+            link: "/library/mysql/groupSearch"
+          },
+          {
             text: "安装初始化",
             link: "/library/mysql/install"
           },
