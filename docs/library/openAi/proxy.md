@@ -1,6 +1,6 @@
 # PAC代理问题
 
-> 我们在使用 SSR 或者 v2Ray 代理大部分走的都是订阅模式，在使用的过程中，发现在访问 OpenAi / ChatGPT 时不走代理的 PAC 规则:face_with_spiral_eyes:，只有在全局模式才能正常访问
+> 我们在使用 SSR 或者 v2Ray 代理大部分走的都是订阅模式，在使用的过程中，发现在访问 OpenAi / ChatGPT 时不走代理的 PAC 规则，只有在全局模式才能正常访问 :vomiting_face:
 
 这是因为 OpenAi 的网站启用了 http3，基于 quic，走的是 udp 协议而非 tcp
 
@@ -14,6 +14,8 @@ Edge的话地址是 edge://flags/#enable-quic
 
 ```
 sentry.io
+chat.openai.com
+openai.com
 pay.openai.com
 identrust.com
 openaiapi-site.azureedge.net

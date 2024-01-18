@@ -72,15 +72,39 @@ export default defineUserConfig({
       },
       {
         text: 'Mysql',
-        link: '/library/mysql/start',
+        link: '/library/mysql/install',
         children: [
           {
+            text: "数据库操作",
+            link: "/library/mysql/database"
+          },
+          {
+            text: "数据表操作",
+            link: "/library/mysql/table"
+          },
+          {
+            text: "列属性操作",
+            link: "/library/mysql/columnAttr"
+          },
+          {
+            text: "简单查询",
+            link: "/library/mysql/simpleSearch"
+          },
+          {
+            text: "搜索条件查询",
+            link: "/library/mysql/conditionQuery"
+          },
+          {
+            text: "表达式和函数",
+            link: "/library/mysql/lambda"
+          },
+          {
             text: "安装初始化",
-            link: "/library/mysql/start"
+            link: "/library/mysql/install"
           },
           {
             text: "删除卸载",
-            link: "/library/mysql/clear"
+            link: "/library/mysql/remove"
           },
           {
             text: "FAQ",
